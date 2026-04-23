@@ -1,0 +1,37 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ghostGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background (optional, remove if you want transparent) -->
+  <rect width="256" height="256" rx="32" fill="#0d1117"/>
+
+  <!-- Ghost body -->
+  <path d="
+    M128 40
+    C88 40, 64 70, 64 110
+    L64 170
+    C64 185, 76 195, 88 185
+    C100 195, 112 185, 128 195
+    C144 185, 156 195, 168 185
+    C180 195, 192 185, 192 170
+    L192 110
+    C192 70, 168 40, 128 40
+    Z
+  " fill="url(#ghostGrad)"/>
+
+  <!-- Eyes -->
+  <circle cx="104" cy="110" r="6" fill="#0d1117"/>
+  <circle cx="152" cy="110" r="6" fill="#0d1117"/>
+
+  <!-- Bucket cube -->
+  <rect x="88" y="130" width="80" height="60" rx="8" fill="#0d1117" stroke="#8A2BE2" stroke-width="2"/>
+
+  <!-- Lock -->
+  <rect x="114" y="150" width="28" height="20" rx="4" fill="#8A2BE2"/>
+  <path d="M120 150 V140 A8 8 0 0 1 136 140 V150" fill="none" stroke="#8A2BE2" stroke-width="3"/>
+
+</svg>

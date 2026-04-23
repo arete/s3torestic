@@ -1,0 +1,23 @@
+<svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="#ffffff"/>
+  
+  <defs>
+    <linearGradient id="gradLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6A0DAD"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ghost -->
+  <text x="40" y="120" font-size="80">👻</text>
+
+  <!-- Title -->
+  <text x="140" y="110" font-size="48" fill="url(#gradLight)" font-family="Segoe UI, sans-serif" font-weight="700">
+    S3Phantom
+  </text>
+
+  <!-- Subtitle -->
+  <text x="140" y="150" font-size="16" fill="#57606a" font-family="Segoe UI, sans-serif">
+    Backup in the shadows
+  </text>
+</svg>
