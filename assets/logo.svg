@@ -6,8 +6,7 @@
     </linearGradient>
   </defs>
 
-  <!-- Background (optional, remove if you want transparent) -->
-  <rect width="256" height="256" rx="32" fill="#0d1117"/>
+ 
 
   <!-- Ghost body -->
   <path d="

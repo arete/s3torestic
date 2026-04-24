@@ -9,28 +9,21 @@
   <b>Backup in the shadows. Stay invisible. Stay safe.</b>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img alt="S3Phantom Banner" src="assets/banner-dark.svg" width="100%">
-  </picture>
-</p>
----
+
 
 <p align="center">
   <img src="https://img.shields.io/github/license/arete/s3phantom?style=for-the-badge&color=8A2BE2">
-  <img src="https://img.shields.io/github/actions/workflow/status//retes3phantom/docker.yml?style=for-the-badge&label=build&color=8A2BE2">
+  <img src="https://img.shields.io/github/actions/workflow/status/arete/s3phantom/docker.yml?style=for-the-badge&label=build&color=8A2BE2">
   <img src="https://img.shields.io/docker/pulls/arete/s3phantom?style=for-the-badge&color=8A2BE2">
-  <img src="https://img.shields.io/github/stars/arete/s3phantom?style=for-the-badge&color=8A2BE2">
+  <img src="https://img.shields.io/github/stars/arete/S3Phantom?style=for-the-badge&color=8A2BE2">
   <img src="https://img.shields.io/github/last-commit/arete/s3phantom?style=for-the-badge&color=8A2BE2">
 </p>
 
 ---
 
-## 👻 What is S3Phantom?
+## <img src="assets/logo.svg" width="28" align="center"> What is S3Phantom?
 
-**S3Phantom** is a lightweight, secure, and **rootless** Docker utility designed to silently bridge a live S3 bucket and an encrypted, versioned backup repository.
+**S3Phantom** is a lightweight, secure, and **rootless** Docker utility designed to silently bridge a live S3 bucket and an encrypted, versioned backup repository.**
 
 It combines:
 
